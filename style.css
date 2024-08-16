@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+header{
+    background-color: rgb(29, 129, 144);
+    padding: 10px;
+}
+a:hover{
+    
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(10, 10, 60);
+    color: palevioletred;
+}
+
+.header_nav{
+    
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+}
+.header_nav_list{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.logo_portada{    
+    padding-top: 10px;
+    width: 5%;
+    border-radius: 100px;
+}
+@media screen and (max-width: 400px) {
+    .header_nav_list a {
+        padding: 5px;
+        display: flex;        
+        justify-content:space-around;
+        gap: 10px
+    }
+}
+
+h1 {
+    color: rgb(237, 237, 241);
+    background-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h2 {
+color: rgb(16, 43, 41);
+font-size: 50px;
+/* padding-top: 20px; */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subtitulos{
+    height: 400px;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/fotos-premium/zapatos-baloncesto-zapatos-deportivos-zapatos-casuales-varios-tipos-zapatos-fondo-exhibicion-productos_327903-1417611.jpg);    
+
+}
+
+
+li {font-size: 10px; 
+    list-style-type: none;}
+h3 {
+    font-size: 40px;
+    color: rgb(16, 43, 41);
+    text-align:center;
+    padding-top: 90px;
+    padding-left: 90px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    background-color: aqua;
+}
+.lista__productos{
+    background-color: rgb(103, 141, 128);    
+    display: flex;
+    padding: 10px ;
+    justify-content:space-around;
+    margin: 10px 20px 10px 20px;
+}
+.card__productos--img{
+    width: 100%;
+    height: 100px;
+}
+.card__productos--title{
+    background-color: rgb(6, 9, 11);
+    color: beige;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.card__productos--descripcion{
+    background-color: rgb(12, 10, 7);
+    font-size: 14px;
+    color: azure;
+}
+.card__precio{
+    background-color: rgb(25, 25, 199);    
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+.card{
+    background-color: rgb(10, 99, 99);
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #0007; 
+}
+.card_title{
+    padding-top: 10px;
+    font-size: 25px;
+    margin: 0;
+}
+.card_subtitle{
+    font-size: 14px;
+    font-weight: 100px;
+    letter-spacing: 3px ;
+    margin-top: 5px;
+}  
+.card_content{
+    font-size: 9px;
+    padding: 10px 15px ;
+    background-color: rgb(234, 234, 241);
+    text-align: justify;
+    color: black;
+    border-radius: 8px;
+}
+.card_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 350%;
+}
+
+    
+
+
+h4{margin-top: 20px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+img {
+    width: 20%;
+    height: 10%;
+}
+
+
+.tarjeta--fixed{    
+    position:fixed;
+    bottom: 0;
+    right: 40%;
+}
+h5{
+    border: 1px solid #632020;
+    color: blanchedalmond;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+.descripcion__carrucel{
+    background-color: aliceblue;
+    color: rgb(10, 15, 13);}
+
+footer{
+    background-color: aquamarine;
+    display: flex;
+}
