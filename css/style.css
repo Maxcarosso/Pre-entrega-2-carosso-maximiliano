@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -81,7 +83,7 @@ main{
     background-color: aqua;
 }
 .lista__productos{
-    background-color: rgb(103, 141, 128);    
+    background-color: rgb(128, 198, 173);    
     display: flex;
     padding: 10px ;
     justify-content:space-around;
@@ -102,7 +104,7 @@ main{
 .card__productos--descripcion{
     background-color: rgb(12, 10, 7);
     font-size: 14px;
-    color: azure;
+    color: rgba(240, 255, 255, 0.342);
 }
 .card__precio{
     background-color: rgb(25, 25, 199);    
@@ -110,21 +112,31 @@ main{
     font-size: 20px;
     text-align: center;
 }
+.personal-tarjeta{
+    display: flex;
+    justify-content: center;
+}
 .card{
-    background-color: rgb(10, 99, 99);
-    text-align: center;
-    width: 300px;
-    margin-top: 20px;
-    padding: 20px;
+    background-color: rgb(83, 180, 180);
+    text-align:center; 
+    width: 400px;
+    margin-top: 0px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 25px #0007; 
 }
 .card_title{
+    display: flex;
+    justify-content: center;
     padding-top: 10px;
     font-size: 25px;
-    margin: 0;
+    
 }
-.card_subtitle{
+.card_subtitle{    
+    display: flex;
+    text-align: center;
+    padding: 0;
+    padding-left: 30px;    
     font-size: 14px;
     font-weight: 100px;
     letter-spacing: 3px ;
@@ -138,7 +150,8 @@ main{
     color: black;
     border-radius: 8px;
 }
-.card_img{
+.card_imagen{     
+    margin-left: 100px;
     width: 150px;
     height: 150px;
     border-radius: 350%;
@@ -172,10 +185,75 @@ h5{
     
 }
 .descripcion__carrucel{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.329);
     color: rgb(10, 15, 13);}
+
+.mensaje-contenedor{   
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.flex-item{    
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+
+}
+.mens-foto{
+    background-color: aqua;
+    height: 60%;
+    width: 80%;
+}
+
+h6{
+    padding: 10px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+form{
+    border: 1px solid black;
+    background-color: aquamarine;
+    max-width: 700px;
+    margin: auto;
+
+}
+.form_input{
+    padding: 10px 20px;
+    
+}
+
+
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 4px;
+    color: blue;
+}
+textarea{
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
 
 footer{
     background-color: aquamarine;
     display: flex;
+    justify-content: center;}
+    .img-footer{
+    width: 100%;
+    height: 300px;
 }
+
+

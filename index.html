@@ -158,14 +158,14 @@
                   <img src="./zapas/nike/nike-full.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                      <h5>Las mejores Nike</h5>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aspernatur est hic, voluptas, veniam ad nulla itaque molestiae optio sunt provident autem culpa ex, corporis vitae repellendus eligendi neque exercitationem?</p>
+                     <p class="descripcion__carrucel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aspernatur est hic, voluptas, veniam ad nulla itaque molestiae optio sunt provident autem culpa ex, corporis vitae repellendus eligendi neque exercitationem?</p>
                   </div>
                </div>
                <div class="carousel-item">
                   <img src="./zapas/puma/puma2.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                      <h5>Hace como ney y usa PUMA</h5>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam laboriosam rerum fugiat accusantium. Sed consectetur facilis corrupti, maiores atque laudantium facere maxime velit dicta porro inventore quis voluptatum excepturi voluptas.</p>
+                     <p class="descripcion__carrucel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam laboriosam rerum fugiat accusantium. Sed consectetur facilis corrupti, maiores atque laudantium facere maxime velit dicta porro inventore quis voluptatum excepturi voluptas.</p>
                   </div>
                </div>
             </div>
@@ -194,55 +194,76 @@
 <nav class="contactos"></nav>
    <section id="contacto">
       <h4>Contacto</h4>
-      <section class="grid-contenedor">
-         
-         <div class="grid-item">
-            <img src="logosimg/logofacebook.jpg" alt="facebook">
+      <form action="consulta">
+         <h6>PODES ENVIARNOS TU CONSULTA</h6>
+         <div class="form_input">
+            <input type="text" placeholder="Nombre y Pellido" required>
+         </div>
+         <div class="form_input">
+            <input type="date" required>
+         </div>
+         <div class="form_input">
+            <input type="email" placeholder="email">
+         </div>
+         <div class="form_input">
+            <textarea placeholder="Deja tu mensaje"></textarea>
+         </div>
+         <div class="form_input"> 
+            <input type="submit">
+         </div>          
+      </form> 
+      
+      <section class="mensaje-contenedor">         
+         <div class="flex-item">
+            <img class="mens-foto" src="logosimg/logofacebook.jpg" alt="facebook">
             <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA">Facebook</a>
          </div>
-         <div class="grid-item">
-         <img src="logosimg/logointagram.jpg" alt="Intagram">
+         <div class="flex-item">
+         <img class="mens-foto" src="logosimg/logointagram.jpg" alt="Intagram">
          <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179">Instagram</a>
-         </div>
-         <div class="grid-item">
-         <img src="logosimg/logowhatsapp.jpg" alt="Whatsapp">
+         </div> 
+      
+         <div class="flex-item">
+         <img class="mens-foto" src="logosimg/logowhatsapp.jpg" alt="Whatsapp">
          <a href="https://faq.whatsapp.com/1317564962315842/?cms_platform=web&lang=es">whatsaap</a>
          
       </div>
-      <div class="grid-item"></div>
-         <img src="logosimg/logomail.png" alt="email">
+      <div class="flex-item">
+         <img class="mens-foto" src="logosimg/logomail.png" alt="email">
          <a href="https://www.microsoft.com/es-ar/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">Correo</a>
          
       </div>
-      
-      
-      </section>
    </section>
+      
+      
+
+
 
 <a href="#contacto"></a>
 
-<h4>Quienes somos?</h4>
+<h4>Quien soy?</h4>
 <a href="#inicio1">volver a inicio</a>
 
 <section id="Quienessomos"></section>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore, nihil eveniet maiores tenetur architecto expedita incidunt vitae, voluptatibus natus dolores laborum minus voluptate nostrum mollitia? Quaerat adipisci autem pariatur?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio quasi maiores voluptas consequatur nemo illo, aspernatur deleniti, laudantium consequuntur fugit at non! Dolores ex consequatur dolorem quos culpa asperiores.
-      Iure laborum commodi et sit incidunt voluptas. Iusto amet laboriosam ut, enim illum incidunt ratione inventore in laudantium ipsa nobis ea excepturi natus tenetur. Repellat aliquid minima quae et labore!
-      Beatae, quaerat sapiente. Libero fuga porro obcaecati corporis, consectetur consequatur aliquam, fugiat id minima atque illum aspernatur excepturi dolore exercitationem nostrum asperiores, iusto vel nam ab. Iusto soluta illo deserunt?
-      Totam vel possimus suscipit minima accusantium sit nisi nostrum perferendis! Atque ullam id eveniet placeat quis veniam, corrupti, maiores dolorum nulla amet quisquam pariatur doloribus facilis incidunt ipsum delectus temporibus?
+<section class="personal-tarjeta">
+<div class="card">
+   <img class="card_imagen" src="./logosmarcas/foto_max1.jpg" alt="">
+   <h2 class="card_title">
+      MAXIMILIANO
+   </h2>
+   <h3 class="card_subtitle">
+      Tecnico/ Desarrollador/ Emprendedor 
+   </h3>
+   <p class="card_content">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iusto totam, provident, unde expedita quod, esse quidem nostrum commodi libero cumque ad officiis autem excepturi hic consequatur iste! Odio, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum culpa animi soluta mollitia, consequatur molestiae ut tempora cupiditate vel temporibus harum hic dolorem, error nobis veniam ea delectus iusto molestias.
    </p>
+
+</div>
+</section>
    <nav class="escribenos">
-   <h4>Escribenos</h4>
-</nav>
-  
-   <form action="consulta">
-      <input type="text" placeholder="Nombre y Pellido" required>
-      <input type="date" required>
-      <input type="email" placeholder="email">
-      <input type="submit">
-            
+   <h4>Gracias por visitarnos</h4>
+</nav>  
    
-   </form> 
    <section class="tarj_personal">
       <div class="personal">
          <div class="tarjeta--fixed">
@@ -256,8 +277,9 @@
 
 
 <footer>
-   <img src="logosmarcas/principallogo.png" alt="marcas">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.8436558230474!2d-60.729268123210055!3d-31.66549687414798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a8fec82636b3%3A0xc868cf4d6244df8b!2sRodr%C3%ADguez%20Pe%C3%B1a%2C%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1721265352920!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank">Ubicacion</iframe>
+   <img class="img-footer" src="logosmarcas/principallogo.png" alt="marcas">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.8436558230474!2d-60.729268123210055!3d-31.66549687414798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a8fec82636b3%3A0xc868cf4d6244df8b!2sRodr%C3%ADguez%20Pe%C3%B1a%2C%20Santa%20Fe%20de%20la%20Vera%20Cruz%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1721265352920!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank">Ubicacion</iframe>
+   <img class="img-footer" src="logosmarcas/principallogo.png" alt="marcas">
    
    
 
