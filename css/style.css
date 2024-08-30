@@ -81,6 +81,14 @@ h6 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.prueba-mixin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 header {
   background-color: rgb(29, 129, 144);
   padding: 10px;
