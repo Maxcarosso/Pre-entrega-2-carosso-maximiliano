@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(29, 129, 144);
+    padding: 10px;
+    .header_nav{    
+        display: flex;
+        align-items: center ;
+        justify-content: space-around;
+    }
+    .header_nav_list{
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+    }
+    .logo_portada{    
+        padding-top: 10px;
+        width: 5%;
+        border-radius: 100px;
+    }
+}

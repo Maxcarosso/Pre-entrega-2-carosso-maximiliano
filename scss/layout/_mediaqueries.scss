@@ -1,0 +1,8 @@
+@media screen and (max-width: 400px) {
+    .header_nav_list a {
+        padding: 5px;
+        display: flex;        
+        justify-content:space-around;
+        gap: 10px
+    }
+}
