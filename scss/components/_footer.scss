@@ -1,8 +1,9 @@
-footer{
+.footer-items{
     background-color: aquamarine;
     display: flex;
-    justify-content: center;}
+    justify-content:center;}
     .img-footer{
+       align-items: center;
     width: 100%;
     height: 300px;
 }
